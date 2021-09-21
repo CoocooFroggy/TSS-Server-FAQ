@@ -1,4 +1,4 @@
-
+ 
 # What is the Board ID?
 
 The Board ID is an identifier that corresponds to your device's hardware model. Visit [this page](https://www.theiphonewiki.com/wiki/BORD) on The iPhone Wiki to match your Board ID with your Board Config.
