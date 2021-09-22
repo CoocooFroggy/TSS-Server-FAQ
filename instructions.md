@@ -6,7 +6,7 @@ Instructions
     1. You may need to remove any OTA blocking profiles, such as a tvOS profile.
     2. Make sure auto updates are disabled, so it doesn't update when you're not looking.
 2. Download ["DNSCloak" from the App Store](https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351)
-3. Download <a href="/cloak.txt" download="Redirect.txt">this text file</a> and save it somewhere accessible to the native Files app.
+3. Download <a href="/TSS-Server-FAQ/cloak.txt" download="Redirect.txt">this text file</a> and save it somewhere accessible to the native Files app.
 4. Open DNSCloak and press the hamburger menu icon in the top left corner.
 5. Under General options, enable "Connect on Demand" to ensure that the VPN does not disconnect. 
 6. Expand "Advanced options" at the very bottom, and scroll down to "Enable Cloaking" (umbrella icon)
