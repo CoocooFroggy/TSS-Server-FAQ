@@ -14,7 +14,7 @@
 
 Yes, actually—I've not seen anyone redirect TSS for the purpose of *saving* blobs. And as far as I'm aware, this is the only known way to:
 - Get ECID on unjailbroken A11 and lower devices without a computer 
-- Get a valid AP Nonce on A12 and later devices without a computer
+- Get a valid AP Nonce on unjailbroken A12 and later devices without a computer
 
 Even better, using APIs of popular blob saving websites such as SHSH Host and TSS Saver, it's possible to immediately save valid blobs for all signed firmwares without needing to input any information manually. However, these blobs would lack a generator, so I've elected not to implement this.
 
