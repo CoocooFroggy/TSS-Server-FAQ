@@ -1,4 +1,6 @@
-FAQ
+[Instructions](/TSS-Server-FAQ/instructions)
+
+**FAQ**
 
 # Do I actually need to update in order to save blobs?
 
