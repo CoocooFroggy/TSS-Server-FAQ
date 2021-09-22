@@ -29,3 +29,9 @@ You should see a website indicating that the redirection succeeded. Follow the s
 3. Wait for "Verifying Update" to fail
     1. If it doesn't fail, and your screen goes black, your phone was able to communicate with Apple's servers somehow. Hard reboot your phone immediately to cancel the update. Ensure that gs.apple.com is really redirecting before trying again.
 4. Return to [gs.apple.com](http://gs.apple.com) and refresh the page. All the details for your device will appear.
+
+# Completion
+
+1. Delete the update file in Settings > General > iPhone Storage > iOS XX.X > Delete Update
+2. Feel free to install reinstall your OTA blocker profiles, or remove the beta if you needed it
+3. Delete the DNSCloak application. This will remove the VPN configuration and won't redirect gs.apple.com anymore.
