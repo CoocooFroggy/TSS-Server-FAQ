@@ -21,3 +21,7 @@ Whenever you have access a computer, feel free to read the generator and note it
 # What information is kept on the server?
 
 No persistent information is kept.
+
+# Why is this done through a server? Can this instead be done locally/offline?
+
+The answer is most likely yes! Unfortunately, I would rather not publish an app onto TestFlight with my real name. Unless someone else would be willing to publish the app, you'll have to stick with the online method.
