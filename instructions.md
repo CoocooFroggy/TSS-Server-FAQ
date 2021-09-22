@@ -6,7 +6,7 @@
 
 1. Ensure you have an OTA Software Update available in **Settings > General > Software Update**. It can be any update, including a beta.
     1. You may need to remove any OTA blocking profiles, such as a tvOS profile.
-    2. Make sure auto updates are disabled, so it doesn't update when you're not looking.
+    2. Ensure auto updates are disabled, so it doesn't update when you're not looking.
 2. Download ["DNSCloak" from the App Store](https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351)
 3. Download <a href="/TSS-Server-FAQ/cloak.txt" download="Redirect.txt">this text file</a> and save it somewhere accessible to the native Files app.
 4. Open DNSCloak and press the hamburger menu icon in the top left corner.
@@ -32,6 +32,6 @@ You should see a website indicating that the redirection succeeded. Follow the s
 
 # Completion
 
-1. Delete the update file in Settings > General > iPhone Storage > iOS XX.X > Delete Update
-2. Feel free to install reinstall your OTA blocker profiles, or remove the beta if you needed it
+1. Delete the update file in **Settings > General > iPhone Storage > iOS XX.X > Delete Update**
+2. Feel free to install reinstall your OTA blocker profiles, or remove the beta if you needed it.
 3. Delete the DNSCloak application. This will remove the VPN configuration and won't redirect gs.apple.com anymore.
