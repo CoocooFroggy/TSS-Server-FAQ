@@ -1,6 +1,6 @@
 **Instructions**
 
-[FAQ](/TSwapS-FAQ/faq)
+[FAQ (click me)](/TSwapS-FAQ/faq)
 
 > Note:  
 > If you cannot jailbreak to set your nonce, and you've already set a persistent nonce (blobsaver 3.0+, for example) and saved blobs with it, **do not use this**! Performing these steps will randomize your boot-nonce (NVRAM generator) and consequently your AP Nonce, meaning you won't be able to use the previous blobs.
