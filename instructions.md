@@ -2,10 +2,14 @@
 
 [FAQ (click me)](/TSwapS-FAQ/faq)
 
+# Tadpole Swap Server
+
+---
+
 > Note:  
 > If you cannot jailbreak to set your nonce, and you've already set a persistent nonce (blobsaver 3.0+, for example) and saved blobs with it, **do not use this**! Performing these steps will randomize your boot-nonce (NVRAM generator) and consequently your AP Nonce, meaning you won't be able to use the previous blobs.
 
-# Setup
+## Setup
 
 1. Ensure you have an OTA Software Update available in **Settings > General > Software Update**. It can be any update, including a beta.
     1. You may need to remove any OTA blocking profiles, such as a tvOS profile.
@@ -21,7 +25,7 @@
 10. Follow the steps to setup the VPN configuration.
     1. If the app seems to be stuck starting DNS server, dismiss the app (without closing it completely!) and re-enter. If you see a square ■ on the toolbar at the top, you're connected. Otherwise, press the play button ▶ on the toolbar.
 
-# Execution
+## Execution
 
 Open Safari and go to [gs.apple.com](http://gs.apple.com)
 
@@ -33,7 +37,7 @@ You should see a website indicating that the redirection succeeded. Follow the s
     1. If it doesn't fail, and your screen goes black, your phone was able to communicate with Apple's servers somehow. Hard reboot your phone immediately to cancel the update. Ensure that gs.apple.com is really redirecting before trying again.
 4. Return to [gs.apple.com](http://gs.apple.com) and refresh the page. All the details for your device will appear.
 
-# Completion
+## Completion
 
 1. Delete the update file in **Settings > General > iPhone Storage > iOS XX.X > Delete Update**
 2. Feel free to install reinstall your OTA blocker profiles, or remove the beta if you needed it.
