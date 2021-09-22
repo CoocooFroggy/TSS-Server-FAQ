@@ -26,7 +26,11 @@ The Board ID is an identifier that corresponds to your device's hardware model. 
 
 The boot-nonce in the phone's NVRAM is not a necessary piece of information in the SHSH Protocol. There is current only one known way to get this value while unjailbroken, requiring a computer. This value is only used to set your generator back if you reset it. This can be caused by running an OTA update again, reading the AP Nonce in booted state (for example, choosing to save unjailbroken blobs with blobsaver), or updating/restoring the device. 
 
-Whenever you have access a computer, feel free to read the generator and note it down. You can do this with libimobiledevice (simply run `ideviceinfo -k BootNonce`, then convert the base64 to hexadecimal), or with blobsaver. (Make _sure_ to press "Jailbroken" to keep your current AP Nonce, even if you're not jailbroken—don't let the wording fool you!) 
+## Doesn't this make the blob useless?
+
+It doesn't! Your boot-nonce is still set in NVRAM, so you can reboot your device and your AP Nonce will remain the same. When it's time for you to use FutureRestore, simply fetch your generator, so that you can reuse that AP Nonce + blobs later, and then feel free to FutureRestore.
+
+Whenever you have access a computer, you can read the generator and note it down. You can do this with libimobiledevice (simply run `ideviceinfo -k BootNonce`, then convert the base64 to hexadecimal), or with blobsaver. (Make _sure_ to press "Jailbroken" to keep your current AP Nonce, even if you're not jailbroken—don't let the wording fool you!) 
 
 # What information is kept on the server?
 
