@@ -35,3 +35,4 @@ You should see a website indicating that the redirection succeeded. Follow the s
 1. Delete the update file in **Settings > General > iPhone Storage > iOS XX.X > Delete Update**
 2. Feel free to install reinstall your OTA blocker profiles, or remove the beta if you needed it.
 3. Delete the DNSCloak application. This will remove the VPN configuration and won't redirect gs.apple.com anymore.
+4. Automatically save blobs on device with [a shortcut](https://routinehub.co/shortcut/9846/)
