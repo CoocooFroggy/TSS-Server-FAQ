@@ -16,7 +16,7 @@
 8. Press the back arrow at the top left
 9. Search for "cloudflare" in the search bar at the top. Tap on it and press "Use this server."
 10. Follow the steps to setup the VPN configuration.
-    1. If the app seems to be stuck starting DNS server, close and reopen the app. Then press the play button ▶ on the toolbar at the top to reconnect.
+    1. If the app seems to be stuck starting DNS server, dismiss the app (without closing it completely!) and re-enter. If you see a square ■ on the toolbar at the top, you're connected. Otherwise, press the play button ▶ on the toolbar.
 
 # Execution
 
