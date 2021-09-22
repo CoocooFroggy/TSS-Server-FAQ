@@ -6,6 +6,14 @@
 
 **No.** The server does not return a valid blob to your device, meaning the phone will refuse to update so long as TSS is redirected to the server. 
 
+# Is this anything new?
+
+Yes, actually—I've not seen anyone redirect TSS for the purpose of saving blobs. And as far as I'm aware, this is the only known way to:
+- Get ECID on unjailbroken A11 and lower devices without a computer 
+- Get a valid AP Nonce on A12 and later devices without a computer
+
+Even better, using APIs of popular blob saving websites such as SHSH Host and TSS Saver, it's possible to immediately save valid blobs for allcsigned firmwares without needing to input any information manually. However, these blobs would lack a generator, so I've elected not to implement this.
+
 # What is the Chip ID?
 
 The Chip ID is an identifier that corresponds to your device's Application Processor. Visit [this page](https://www.theiphonewiki.com/wiki/CHIP) on The iPhone Wiki to match your Chip ID with your processor.
