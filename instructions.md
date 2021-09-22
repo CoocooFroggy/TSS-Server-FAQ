@@ -1,6 +1,9 @@
 **Instructions**
 
-[FAQ](/TSS-Server-FAQ/faq)
+[FAQ](/TSwapS-FAQ/faq)
+
+> Note:  
+> If you cannot jailbreak to set your nonce, and you've already set a persistent nonce (blobsaver 3.0+, for example) and saved blobs with it, **do not use this**! Performing these steps will randomize your boot-nonce (NVRAM generator) and consequently your AP Nonce, meaning you won't be able to use the previous blobs.
 
 # Setup
 
@@ -8,7 +11,7 @@
     1. You may need to remove any OTA blocking profiles, such as a tvOS profile.
     2. Ensure auto updates are disabled, so it doesn't update when you're not looking.
 2. Download ["DNSCloak" from the App Store](https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351)
-3. Download <a href="/TSS-Server-FAQ/cloak.txt" download="Redirect.txt">this text file</a> and save it somewhere accessible to the native Files app.
+3. Download <a href="/TSwapS-FAQ/cloak.txt" download="Redirect.txt">this text file</a> and save it somewhere accessible to the native Files app.
 4. Open DNSCloak and press the hamburger menu icon in the top left corner.
 5. Under General options, enable "Connect on Demand" to ensure that the VPN does not disconnect. 
 6. Expand "Advanced options" at the very bottom, and scroll down to "Enable Cloaking" (umbrella icon)

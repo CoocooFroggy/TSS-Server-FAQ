@@ -1,4 +1,4 @@
-[Instructions](/TSS-Server-FAQ/instructions)
+[Instructions](/TSwapS-FAQFAQ/instructions)
 
 **FAQ**
 
