@@ -1,4 +1,6 @@
-Instructions
+**Instructions**
+
+[FAQ](/TSS-Server-FAQ/faq)
 
 # Setup
 
