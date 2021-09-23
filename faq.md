@@ -46,4 +46,4 @@ No persistent information is kept.
 
 ## Why is this done through a server? Can this instead be done locally/offline?
 
-The answer is most likely yes! Unfortunately, I would rather not publish an app onto TestFlight with my real name. Unless someone else would be willing to publish the app, you'll have to stick with the online method.
+The answer is definitely yes! You can already do this with some proxy apps like [Proxyman](https://apps.apple.com/us/app/proxyman-web-debugging-proxy/id1551292695), just not conveniently. I'd make an app, but unfortunately, I would rather not publish an app onto TestFlight with my real name. Unless someone else is willing to publish the app, you'll have to stick with the online method.
