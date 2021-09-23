@@ -38,7 +38,7 @@ The boot-nonce in the phone's NVRAM is not a necessary piece of information in t
 
 When you go to use FutureRestore, simply fetch your generator, so that you can reuse the blobs saved without generator later, and then start the restore. Again, the generator is **not needed when saving blobs**. You will only use the generator if you're jailbroken and want to reuse a blob after the your nonce changed.
 
-Whenever you have access a computer, you can read the generator and note it down. You can do this with libimobiledevice (simply run `ideviceinfo -k BootNonce`, then convert the base64 to hexadecimal), or with blobsaver. (Make _sure_ to press "Jailbroken" to keep your current AP Nonce, even if you're not jailbroken—don't let the wording fool you!) 
+Whenever you have access a computer, you can read the generator and note it down. You can do this by rebooting your device, then with libimobiledevice (simply run `ideviceinfo -k BootNonce` and convert the base64 to hexadecimal), or with blobsaver. (Make _sure_ to press "Jailbroken" to keep your current AP Nonce, even if you're not jailbroken—don't let the wording fool you!) 
 
 ### In what circumstances does this persistent boot-nonce change?
 
