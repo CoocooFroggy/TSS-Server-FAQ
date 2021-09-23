@@ -1,6 +1,8 @@
+[Description](/TSwapS-FAQ/tswaps)
+
 **Instructions**
 
-[FAQ (click me)](/TSwapS-FAQ/faq)
+[FAQ](/TSwapS-FAQ/faq)
 
 # Tadpole Swap Server
 
