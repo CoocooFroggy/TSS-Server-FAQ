@@ -52,6 +52,8 @@ The Chip ID is an identifier that corresponds to your device's Application Proce
 
 The Board ID is an identifier that corresponds to your device's hardware model. Visit [this page](https://www.theiphonewiki.com/wiki/BORD) on The iPhone Wiki to match your Board ID with your Board Config. Or simply look at the "Board Config" field in the Device Info page after performing TSwapS.
 
+Send me a message at u/CoocooFroggy if you would like the JSON file I created that matches Board ID and Chip ID to Board Config and Identifier.
+
 ## What information is kept on the server?
 
 No persistent information is kept.
