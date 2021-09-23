@@ -24,7 +24,7 @@ The Chip ID is an identifier that corresponds to your device's Application Proce
 
 ## What is the Board ID?
 
-The Board ID is an identifier that corresponds to your device's hardware model. Visit [this page](https://www.theiphonewiki.com/wiki/BORD) on The iPhone Wiki to match your Board ID with your Board Config.
+The Board ID is an identifier that corresponds to your device's hardware model. Visit [this page](https://www.theiphonewiki.com/wiki/BORD) on The iPhone Wiki to match your Board ID with your Board Config. Or simply look at the "Board Config" field in the Device Info page after performing TSwapS.
 
 ## Why can't I see my current generator?
 
@@ -38,7 +38,7 @@ Whenever you have access a computer, you can read the generator and note it down
 
 ### In what circumstances does this persistent boot-nonce change?
 
-After you use TSwapS, if you reboot and then do TSwapS again/use blobsaver 3.0+, or if you restore your device, your nonce will randomize. This will make all your blobs useless unless you noted down the generator *and* have a jailbreak to set the generator again.
+After you use TSwapS, if you reboot and then request AP Nonce in booted mode (TSwapS again/use blobsaver 3.0+), or if you restore your device, your nonce will randomize. This will make all your blobs useless unless you noted down the generator *and* have a jailbreak to set the generator again.
 
 ## What information is kept on the server?
 
