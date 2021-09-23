@@ -1,4 +1,4 @@
-[Instructions (click me)](/TSwapS-FAQFAQ/instructions)
+[Instructions (click me)](/TSwapS-FAQ/instructions)
 
 **FAQ**
 
