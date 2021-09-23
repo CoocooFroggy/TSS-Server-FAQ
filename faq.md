@@ -8,7 +8,7 @@
 
 ## Do I actually need to update in order to save blobs?
 
-**No.** Our server does not return a valid blob to your device, meaning the phone will refuse to update so long as TSS is redirected to our server. 
+**No.** TSwapS does not return a valid blob to your device, meaning the phone will refuse to update so long as TSS is redirected to our TSwapS. 
 
 ## Is this anything new?
 
@@ -35,6 +35,10 @@ The boot-nonce in the phone's NVRAM is not a necessary piece of information in t
 It doesn't! Your boot-nonce is still set in NVRAM, so you can reboot your device and your AP Nonce will remain the same. When it's time for you to use FutureRestore, simply fetch your generator, so that you can reuse that AP Nonce + blobs later, and then start the restore.
 
 Whenever you have access a computer, you can read the generator and note it down. You can do this with libimobiledevice (simply run `ideviceinfo -k BootNonce`, then convert the base64 to hexadecimal), or with blobsaver. (Make _sure_ to press "Jailbroken" to keep your current AP Nonce, even if you're not jailbroken—don't let the wording fool you!) 
+
+### In what circumstances does this persistent boot-nonce change?
+
+After you use TSwapS, if you reboot and then do TSwapS again/use blobsaver 3.0+, or if you restore your device, your nonce will randomize. This will make all your blobs useless unless you noted down the generator *and* have a jailbreak to set the generator again.
 
 ## What information is kept on the server?
 
