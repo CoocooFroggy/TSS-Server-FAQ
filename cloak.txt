@@ -1,1 +1,1 @@
-gs.apple.com* tswaps.eastus.cloudapp.azure.com
+gs.apple.com* coocoofroggy.eastus.cloudapp.azure.com
