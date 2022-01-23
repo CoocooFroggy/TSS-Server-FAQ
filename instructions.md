@@ -29,7 +29,7 @@
 
 ## Execution
 
-Open Safari and go to [gs.apple.com](http://gs.apple.com)
+Open Safari and go to [gs.apple.com/TSS](http://gs.apple.com/TSS)
 
 You should see a website indicating that the redirection succeeded. Follow the steps on the website (which are as follows):
 
@@ -37,7 +37,7 @@ You should see a website indicating that the redirection succeeded. Follow the s
 2. Attempt to install any update
 3. Wait for "Verifying Update" to fail
     1. If it doesn't fail, and your screen goes black, your phone was able to communicate with Apple's servers somehow. Hard reboot your phone immediately to cancel the update. Ensure that gs.apple.com is really redirecting before trying again.
-4. Return to [gs.apple.com](http://gs.apple.com) and refresh the page. All the details for your device will appear.
+4. Return to [gs.apple.com/TSS](http://gs.apple.com/TSS) and refresh the page. All the details for your device will appear.
 
 ## Completion
 
